@@ -42,6 +42,7 @@ nav a {
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -49,6 +50,7 @@ nav a {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 200px;
 }
 
 .about, .contact {
@@ -61,6 +63,7 @@ nav a {
   margin: 10px auto;
   padding: 10px;
   width: 80%;
+  max-width: 400px;
 }
 
 footer {
